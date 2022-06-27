@@ -3,6 +3,7 @@
     padding:0;
     line-height: 1;
     list-style: none;
+    text-decoration: none;
 }
 .wrap{
     width:1280px;
