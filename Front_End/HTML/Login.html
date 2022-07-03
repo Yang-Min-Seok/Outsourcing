@@ -5,18 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
-    <!-- css -->
-    <link rel="stylesheet" href="/Front_End/asset/css/common.css">
-    <link rel="stylesheet" href="/Front_End/asset/css/Login/header.css">
-
 </head>
 <body>
     <section id="header">
         <div class="wrap">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
             </ul>
         </div>
     </section>
@@ -29,9 +24,11 @@
                 <li>
                     <h4>Hello!</h4>
                     <p>Log in to see your closet</p>
-                    <input type="text" placeholder="Full-name">
-                    <input type="text" placeholder="Password">
-                    <a href="/register">Login</a>
+                    <form method = "POST" action="">    
+                        <input type="text" id="username" name="username" placeholder="Full-name">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <input type="submit" value="Login">
+                    </form>
                 </li>
             </ul>
         </div>
