@@ -2,20 +2,33 @@
 
 }
 #header .wrap{
-    
+    padding-top:50px;
 }
 #header .wrap ul{
-    
+    display: flex;
+    justify-content: right;
 }
 #header .wrap ul li{
     
 }
 #header .wrap ul li a{
-    
+    display:inline-block;
+    width:100px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size:25px;
+    font-weight: bold;
+    color:#000;
+    background-color: #eee;
+    border-radius: 10px;
+    box-sizing:border-box;
+    transition: all 0.5s;
 }
 #header .wrap ul li a:hover{
-    
+    background-color: #fff;
+    border: 2px solid #000;
 }
 #header .wrap ul li:nth-child(1){
-    
+    margin-right:50px;
 }
