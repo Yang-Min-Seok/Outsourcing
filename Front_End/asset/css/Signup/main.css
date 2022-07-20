@@ -1,0 +1,97 @@
+#main{
+    
+}
+#main .wrap{
+
+}
+#main .wrap ul{
+    display:flex;
+}
+#main .wrap ul li{
+    width: calc(100% / 2);
+    height:800px;
+}
+#main .wrap ul li:nth-child(1){
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CAEFF;
+}
+#main .wrap ul li:nth-child(1) h3{
+    font-size:40px;
+    color: #fff;
+}
+#main .wrap ul li:nth-child(2){
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+#main .wrap ul li:nth-child(2)::after{
+    content:'';
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    background: url("/Front_End/asset/img/landing_background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#main .wrap ul li:nth-child(2) h4{
+    display:inline-block;
+    font-size: 40px;
+    width: 55%;
+    margin-bottom: 20px;
+}
+#main .wrap ul li:nth-child(2) p{
+    display:inline-block;
+    width: 55%;
+    font-size:30px;
+    margin-bottom: 20px;
+}
+#main .wrap ul li:nth-child(2) form{
+    display: block;
+    width:55%;
+}
+#main .wrap ul li:nth-child(2) form #username{
+    width:100%;
+    height:40px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size:25px;
+}
+#main .wrap ul li:nth-child(2) form #password{
+    width:100%;
+    height:40px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size:25px;
+}
+#main .wrap ul li:nth-child(2) form a{
+    display:inline-block;
+    width:100%;
+    height:50px;
+    color:#fff;
+    background-color: #3CAEFF;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.7s;
+    box-sizing: border-box;
+}
+#main .wrap ul li:nth-child(2) form a:hover{
+    background-color: #fff;
+    color:#3CAEFF;
+    border: 2px solid #3CAEFF;
+}
