@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/Front_End/asset/css/Login/header.css">
     <link rel="stylesheet" href="/Front_End/asset/css/Login/main.css">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 </head>
 <body>
@@ -31,10 +33,15 @@
                 <li>
                     <h4>Hello!</h4>
                     <p>Log in to see your closet</p>
-                    <form method = "POST" action="">    
-                        <input type="text" id="username" name="username" placeholder="Full-name">
-                        <br>
-                        <input type="password" id="password" name="password" placeholder="Password">
+                    <form method = "POST" action="">
+                        <div>
+                            <i class="fa-solid fa-id-badge"></i>
+                            <input type="text" id="username" name="username" placeholder="Full-name">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password" placeholder="Password">
+                        </div>
                         <br>
                         <a href="#" type="submit">Login</a>
                     </form>
