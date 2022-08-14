@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url(/Front_End/asset/img/landing_background.jpeg);
+    background-image: url(/static/images/landing_background.jpeg);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;

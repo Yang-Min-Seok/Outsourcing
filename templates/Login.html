@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- css -->
-    <link rel="stylesheet" href="/Front_End/asset/css/common.css">
-    <link rel="stylesheet" href="/Front_End/asset/css/Signup/header.css">
-    <link rel="stylesheet" href="/Front_End/asset/css/Signup/main.css">
-
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
     
+    <!-- import css -->
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/Login/header.css">
+    <link rel="stylesheet" href="/static/css/Login/main.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 </head>
 <body>
     <section id="header">
         <div class="wrap">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
             </ul>
         </div>
     </section>
@@ -32,7 +31,7 @@
                 </li>
                 <li>
                     <h4>Hello!</h4>
-                    <p>sign up to make your closet</p>
+                    <p>Log in to see your closet</p>
                     <form method = "POST" action="">
                         <div>
                             <i class="fa-solid fa-id-badge"></i>
@@ -42,7 +41,8 @@
                             <i class="fa-solid fa-key"></i>
                             <input type="password" id="password" name="password" placeholder="Password">
                         </div>
-                        <a href="#">Register</a>
+                        <br>
+                        <a href="/uploadshirts" type="submit">Login</a>
                     </form>
                 </li>
             </ul>
