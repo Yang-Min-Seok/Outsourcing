@@ -2,8 +2,16 @@
   <head>
     <title>Upload</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.css">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="/static/css/common.css">
+
+    <!-- dropbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
+  
   </head>
   <body>
+    <!-- header -->
     <section id = "header">
       <div class="wrap">
         <h3>SeoulTech</h3>
@@ -13,19 +21,29 @@
             </ul>
         </div>
     </section>
+    
+    <!-- main -->
     <section id = "main">
-    <h1>Shirts</h1>
-    <form action="{{ url_for('Upload_shirts') }}" class="dropzone">
-    </form>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
-    <h1>Pants</h1>
-    <form action="{{ url_for('Upload_pants') }}" class="dropzone">
-    </form>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
-    <h1>Shoes</h1>
-    <form action="{{ url_for('Upload_shoes') }}" class="dropzone">
-    </form>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
+      
+      <div class="wrap">        
+        
+        <div>
+          <h1>Shirts</h1>
+          <form action="{{ url_for('Upload_shirts') }}" class="dropzone"></form>
+        </div>
+        
+        <div>
+          <h1>Pants</h1>
+          <form action="{{ url_for('Upload_pants') }}" class="dropzone"></form>
+        </div>
+
+        <div>
+          <h1>Shoes</h1>
+          <form action="{{ url_for('Upload_shoes') }}" class="dropzone"></form>
+        </div>
+
+      </div> 
+       
     </section>
   </body>
 </html>
