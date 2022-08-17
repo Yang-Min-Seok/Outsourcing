@@ -1,0 +1,36 @@
+#header{
+    
+}
+#header .wrap{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #eee;
+}
+#header .wrap h3{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    margin-left: 25px;
+}
+#header .wrap a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-right: 25px;
+    box-sizing: border-box;
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+#header .wrap a:hover{
+    background-color: #fff;
+    border: 2px solid #000;
+}
