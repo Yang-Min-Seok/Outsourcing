@@ -2,9 +2,9 @@
 
 }
 #main .wrap{
-    height:650px;
+    height:800px;
     position:relative;
-    padding-top: calc((800px - 640px) / 2);
+    padding-top: 50px;
 }
 #main .wrap::after{
     content:'';
@@ -21,15 +21,15 @@
     background-position: center;
 }
 #main .wrap ul{
-    width:90%;
-    height:80%;
+    width:85%;
+    height:95%;
     margin:0 auto;
     display:flex;
-    column-gap: 15px;
+    column-gap: 70px;
 }
 #main .wrap ul li{
     height:100%;
-    width: calc(100% / 3 - 15px / 3);
+    width: calc(100% / 3 - 70px / 3);
     box-sizing: border-box;
     padding:20px;
 }
